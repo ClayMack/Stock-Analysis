@@ -64,6 +64,7 @@ __(Original VBA Macro steps 13-14.)__
 #### 3). Create three output arrays: tickerVolumes, tickerStartingPrices. and tickerEndingPrices
 
 ![Refactored VBA code #1.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Refractored%20Code%20%231.png "VBA code.")
+
 __(Refactored VBA Macro steps 1-3.)__
 
 
@@ -98,6 +99,14 @@ __(Timing for 2017 refactored subroutine)__
 ![Refactored VBA code #3.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/VBA_Challenge_2018.png "VBA code.")
 
 __(Timing for 2018 refactored subroutine)__
+
+
+## Summary: 
+
+As we see in this project, there are advantages to refactoring the code we originally wrote. The obvious one is speed. by simplifing complext code that performes duplicate iterations the array of tickers, we can dramatically shorten the run time of the macro. Secondly, refractoring can make the code easier to understand. This can make problematic bugs easier to spot and can lead to further performance enhancements. Especially in complex macros. At the same time there could be disadvantages of refractoring code. If the code is very long, there could be bugs that develope from tweaks in early steps. This could lead to errors in the functions if a subroutine contains a bug that could later be recalled into another subroutine.
+
+While the original VBA script was logically sound and ran without error. It was slower, and if the dataset was orders of magnitude larger, it could have resulted in overall performance degradation. Given the project at hand, this performance increase may not have been worth the effort. 
+
 
 
 
