@@ -21,33 +21,40 @@ Steve wants to help his parents analyze stock to find investment opportunities. 
 
 
 ![Original VBA Macro steps 1-4.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%201.png "VBA code.")
-Original VBA Macro steps 1-4.
+(Original VBA Macro steps 1-4.)
 
-#### 5). Get the number of rows to loop over
-#### 6). Initialize variables for starting price and ending price
-
-#### 7). 
-#### 8). 
-
-
+#### 5). Initialize variables for starting price and ending price
+#### 6). Get the number of rows to loop over
 
 ![Original VBA code #2.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%202.png "VBA code.")
-
-#### 9). 
-#### 10). 
-#### 11). 
-#### 12). 
+(Original VBA Macro steps 5-6.)
 
 
-![Original VBA code #3.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%201.png "VBA code.")
+#### 7). Loop through tickers
+#### 8). loop through rows in the data
+#### 9). Get total volume for current ticker
+#### 10). Get starting price for current ticker
+#### 11). Get ending price for current ticker
+#### 12). Output data for current ticker
+
+
+![Original VBA code #3.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%203.png "VBA code.")
+(Original VBA Macro steps 7-12.)
+
+
+#### 13). Call a Sub for formatting the output data table
+#### 14). End the timer
 
 
 ![Original VBA code #4.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%204.png "VBA code.")
-
+(Original VBA Macro steps 13-14.)
 
 ## Refractored Code:
 
 ## Results: 
+
+
+
 
 
 
