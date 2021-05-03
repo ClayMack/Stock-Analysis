@@ -103,9 +103,12 @@ __(Timing for 2018 refactored subroutine)__
 
 ## Summary: 
 
-As we see in this project, there are advantages to refactoring the code we originally wrote. The obvious one is speed. by simplifing complext code that performes duplicate iterations the array of tickers, we can dramatically shorten the run time of the macro. Secondly, refractoring can make the code easier to understand. This can make problematic bugs easier to spot and can lead to further performance enhancements. Especially in complex macros. At the same time there could be disadvantages of refractoring code. If the code is very long, there could be bugs that develope from tweaks in early steps. This could lead to errors in the functions if a subroutine contains a bug that could later be recalled into another subroutine.
+As we see in this project, there are advantages to refactoring the code we originally wrote. The obvious one is speed. By simplifing complext code, you can dramatically shorten the run time of a macro. Secondly, refractoring can make the code easier to understand. This can make problematic bugs easier to spot, and it can lead to further performance enhancements. At the same time there could be disadvantages of refractoring code. If the code is very long, there could be bugs that develope from the refactoring if a subroutine contains a bug that later gets recalled into another subroutine. This could lead to calculation errors in macros.
 
-While the original VBA script was logically sound and ran without error. It was slower, and if the dataset was orders of magnitude larger, it could have resulted in overall performance degradation. Given the project at hand, this performance increase may not have been worth the effort. 
+While the original VBA script was logically sound and ran without error. It was slower, and if the dataset was much larger, it could have resulted in overall performance degradation. Given the project at hand, this performance increase may not have been worth the effort as there was less than a second speed increase.  
+
+
+
 
 
 
