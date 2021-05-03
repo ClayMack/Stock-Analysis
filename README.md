@@ -21,7 +21,7 @@ Steve wants to help his parents analyze stock to find investment opportunities. 
 
 
 ![Original VBA Macro steps 1-4.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%201.png "VBA code.")
-
+Original VBA Macro steps 1-4.
 
 #### 5). Get the number of rows to loop over
 #### 6). Initialize variables for starting price and ending price
@@ -48,7 +48,6 @@ Steve wants to help his parents analyze stock to find investment opportunities. 
 ## Refractored Code:
 
 ## Results: 
-
 
 
 
