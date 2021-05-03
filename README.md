@@ -21,12 +21,14 @@ Steve wants to help his parents analyze stock to find investment opportunities. 
 
 
 ![Original VBA Macro steps 1-4.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%201.png "VBA code.")
+
 __(Original VBA Macro steps 1-4.)__
 
 #### 5). Initialize variables for starting price and ending price
 #### 6). Get the number of rows to loop over
 
 ![Original VBA code #2.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%202.png "VBA code.")
+
 __(Original VBA Macro steps 5-6.)__
 
 
@@ -39,6 +41,7 @@ __(Original VBA Macro steps 5-6.)__
 
 
 ![Original VBA code #3.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%203.png "VBA code.")
+
 __(Original VBA Macro steps 7-12.)__
 
 
@@ -47,6 +50,7 @@ __(Original VBA Macro steps 7-12.)__
 
 
 ![Original VBA code #4.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%204.png "VBA code.")
+
 __(Original VBA Macro steps 13-14.)__
 
 
@@ -68,6 +72,7 @@ __(Refactored VBA Macro steps 1-3.)__
 #### 6). Write a script that increases the tickerIndex if the next row’s ticker doesn’t match the previous row’s ticker
 
 ![Refactored VBA code #2.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Refractored%20Code%20%232.png "VBA code.")
+
 __(Refactored VBA Macro steps 4-6.)__
 
 
@@ -75,6 +80,7 @@ __(Refactored VBA Macro steps 4-6.)__
 
 
 ![Refactored VBA code #3.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Refractored%20Code%20%233.png "VBA code.")
+
 __(Refactored VBA Macro step 7.)__
 
 
@@ -85,20 +91,13 @@ __(Refactored VBA Macro step 7.)__
 After refactoring the macro we were able to cut the run time to 0.125 seconds for the 2017 data and 0.129 seconds for the 2018 data. The attached spreadsheet contains the macro with both the original subroutine as well as the new refactored subroutine with buttons for to run the refractored subroutine and to clear the data.
 
 ![Refactored VBA code #3.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/VBA_Challenge_2017.png "VBA code.")
+
 __(Timing for 2017 refactored subroutine)__
 
 
 ![Refactored VBA code #3.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/VBA_Challenge_2018.png "VBA code.")
+
 __(Timing for 2018 refactored subroutine)__
-
-
-
-
-
-
-
-
-
 
 
 
