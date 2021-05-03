@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This project's scope was to analyze stock market data using VBA macros to sum total daily volumes and annual returns for each stock ticker. The challenge was to refractored the macro in order to make it run faster. 
+This project's scope was to analyze stock market data using VBA macros to sum total daily volumes and annual returns for each stock ticker. The challenge was to refactored the macro in order to make it run faster. 
 
 
 ## Original Project Details:
@@ -21,13 +21,13 @@ Steve wants to help his parents analyze stock to find investment opportunities. 
 
 
 ![Original VBA Macro steps 1-4.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%201.png "VBA code.")
-(Original VBA Macro steps 1-4.)
+__(Original VBA Macro steps 1-4.)__
 
 #### 5). Initialize variables for starting price and ending price
 #### 6). Get the number of rows to loop over
 
 ![Original VBA code #2.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%202.png "VBA code.")
-(Original VBA Macro steps 5-6.)
+__(Original VBA Macro steps 5-6.)__
 
 
 #### 7). Loop through tickers
@@ -39,7 +39,7 @@ Steve wants to help his parents analyze stock to find investment opportunities. 
 
 
 ![Original VBA code #3.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%203.png "VBA code.")
-(Original VBA Macro steps 7-12.)
+__(Original VBA Macro steps 7-12.)__
 
 
 #### 13). Call a Sub for formatting the output data table
@@ -47,12 +47,42 @@ Steve wants to help his parents analyze stock to find investment opportunities. 
 
 
 ![Original VBA code #4.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%204.png "VBA code.")
-(Original VBA Macro steps 13-14.)
+__(Original VBA Macro steps 13-14.)__
 
-## Refractored Code:
+###Out puts
+
+
+
+
+
+## Refactored Code:
+
+#### 1). Create a tickerIndex variable and set equal to zero before iterating over all the rows
+#### 2). Use tickerIndex to index the ticker array and the three output arrays (step #3)
+#### 3). Create three output arrays: tickerVolumes, tickerStartingPrices. and tickerEndingPrices
+
+![Refactored VBA code #1.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Refractored%20Code%20%231.png "VBA code.")
+__(Refactored VBA Macro steps 1-3.)__
+
+
+#### 4). Create for loops to intitialize the tickerVolumes to zero and to loop over all the rows of data in the spreadsheet
+#### 5). Write an if-then statement to check if the current row is the first row with the selected tickerIndex. If it is, then assign the current starting price to the tickerStartingPrices variable
+#### 6). Write a script that increases the tickerIndex if the next row’s ticker doesn’t match the previous row’s ticker
+
+![Refactored VBA code #2.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Refractored%20Code%20%232.png "VBA code.")
+__(Refactored VBA Macro steps 4-6.)__
+
+
+#### 7). Use a for loop to loop through your arrays (tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices) to output the “Ticker,” “Total Daily Volume,” and “Return” columns in your spreadsheet
+
+
+![Refactored VBA code #3.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Refractored%20Code%20%233.png "VBA code.")
+__(Refactored VBA Macro step 7.)__
+
+
+
 
 ## Results: 
-
 
 
 
