@@ -42,14 +42,12 @@ __(Original VBA Macro steps 5-6.)__
 __(Original VBA Macro steps 7-12.)__
 
 
-#### 13). Call a Sub for formatting the output data table
+#### 13). Call a Subroutine for formatting the output data table
 #### 14). End the timer
 
 
 ![Original VBA code #4.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%204.png "VBA code.")
 __(Original VBA Macro steps 13-14.)__
-
-###Out puts
 
 
 
@@ -83,6 +81,18 @@ __(Refactored VBA Macro step 7.)__
 
 
 ## Results: 
+
+After refactoring the macro we were able to cut the run time to 0.125 seconds for the 2017 data and 0.129 seconds for the 2018 data. The attached spreadsheet contains the macro with both the original subroutine as well as the new refactored subroutine with buttons for to run the refractored subroutine and to clear the data.
+
+![Refactored VBA code #3.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/VBA_Challenge_2017.png "VBA code.")
+__(Timing for 2017 refactored subroutine)__
+
+
+![Refactored VBA code #3.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/VBA_Challenge_2018.png "VBA code.")
+__(Timing for 2018 refactored subroutine)__
+
+
+
 
 
 
