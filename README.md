@@ -16,14 +16,19 @@ Steve wants to help his parents analyze stock to find investment opportunities. 
 ## VBA Macro Workflow:
 * Subroutine: All Stocks Analysis 
 ** 1). Format timer
+
 ** 3). Create header on worksheet for analysis table
+
 ** 4). Initialize array of all tickers
+
 
 ![Original VBA Macro steps 1-4.](https://github.com/ClayMack/Stock-Analysis/blob/master/Resources/Original%20Code%201.png "VBA code.")
 
 
 ** 5). Get the number of rows to loop over
+
 ** 6). Initialize variables for starting price and ending price
+
 **7). 
 **8). 
 
@@ -44,6 +49,10 @@ Steve wants to help his parents analyze stock to find investment opportunities. 
 ## Refractored Code:
 
 ## Results: 
+
+
+
+
 
 
 
